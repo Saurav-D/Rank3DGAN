@@ -28,9 +28,13 @@ For the data pre/post-processing, please check matlab folder.
 ## Dataset creation
 
 Check `matlab/createDataset.m` for the details. To transform the charts to tfrecords format use:
-
+- For the case of single meshes dataset:
 ```
 python3 convert_to_tfrecords.py --database_signature=<database_signature>
+```
+- For the case of pairwise comparison meshes dataset:
+```
+python3 convert_to_tfrecords.py --database_signature=<database_signature> -p
 ```
 
 ## Rank3DGAN training
