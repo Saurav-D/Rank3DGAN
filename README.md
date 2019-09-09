@@ -1,5 +1,4 @@
-# [Rank3DGAN](https://arxiv.org/pdf/1905.10257.pdf)
-Rank3DGAN: Semantic mesh generation using relative attributes
+# [Rank3DGAN: Semantic mesh generation using relative attributes](https://arxiv.org/pdf/1905.10257.pdf)
 
 This repository provides Tensorflow implementations for Rank3DGAN paper.
 
