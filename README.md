@@ -50,3 +50,9 @@ python3 evaluate_main.py -c=configs/config.json
 ```
 After getting the generated charts. Use `matlab/inspectGeneratedData.m` to obtain the resulting meshes.
 
+## Mesh generation
+
+<p align="center">
+<img src="docs/generation.jpg" width="700" />
+</p>
+
